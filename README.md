@@ -31,7 +31,7 @@ It fulfills all internship requirements:
 
 ---
 
-## 📦 Installation
+ 📦 Installation
 
 1. **Clone the repository**
 ```bash
@@ -42,7 +42,7 @@ python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 3-Install dependencies
 pip install -r requirements.txt
-Usage
+#Usage
 Run on Video Files
 Place your video(s) in the videos/ folder or detect real time object
 Run the main script:
@@ -50,7 +50,7 @@ python yolo_object_tracking.py
 Use Webcam
 
 
-📁 Code Overview
+#Code Overview
 yolo_object_tracking.py — main detection & tracking script
 videos/ — sample video(s) for testing
 models/ — YOLO pre-trained weights 
@@ -58,7 +58,7 @@ requirements.txt — all Python dependencies
 📸 Demo / Example
 
 
-💡 Future Improvements
+💡#Future Improvements
 GUI / Dashboard — Let users select videos or webcam dynamically
 Save Output Videos — Add cv2.VideoWriter to save processed videos
 Custom Object Classes — Fine-tune YOLO to detect specific objects more accurately
