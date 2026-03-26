@@ -34,7 +34,7 @@ It fulfills all internship requirements:
  📦 Installation
 
 1. **Clone the repository**
-```bash
+
 git clone https://github.com/Urooj25/CodeAlpha_ObjectDetection.git
 cd CodeAlpha_ObjectDetection
 2- Create a virtual environment
