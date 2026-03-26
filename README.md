@@ -37,9 +37,11 @@ It fulfills all internship requirements:
 
 git clone https://github.com/Urooj25/CodeAlpha_ObjectDetection.git
 cd CodeAlpha_ObjectDetection
+
 2- Create a virtual environment
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
+
 3-Install dependencies
 pip install -r requirements.txt
 
