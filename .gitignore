@@ -1,0 +1,9 @@
+# Ignore virtual environment
+venv/
+
+# Ignore model files
+*.pt
+
+# Ignore outputs and videos
+output/
+videos/
