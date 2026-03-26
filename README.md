@@ -33,26 +33,32 @@ It fulfills all internship requirements:
 
 ## 📦 Installation
 
-##**Clone the repository**
- 
-##**Install dependencies**
-
+1. **Clone the repository**
+```bash
+git clone https://github.com/Urooj25/CodeAlpha_ObjectDetection.git
+cd CodeAlpha_ObjectDetection
+2- Create a virtual environment
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+3-Install dependencies
 pip install -r requirements.txt
-
-##**Usage**
-
+Usage
 Run on Video Files
-Detect  real time objects
+Place your video(s) in the videos/ folder or detect real time object
+Run the main script:
+python yolo_object_tracking.py
+Use Webcam
 
-##**Code Overview**
 
+📁 Code Overview
 yolo_object_tracking.py — main detection & tracking script
 videos/ — sample video(s) for testing
-models/ — YOLO pre-trained weights if required
-requirements.txt — all dependencies for Python environment
+models/ — YOLO pre-trained weights 
+requirements.txt — all Python dependencies
+📸 Demo / Example
 
-##**Future Improvements**
 
+💡 Future Improvements
 GUI / Dashboard — Let users select videos or webcam dynamically
 Save Output Videos — Add cv2.VideoWriter to save processed videos
 Custom Object Classes — Fine-tune YOLO to detect specific objects more accurately
@@ -60,11 +66,11 @@ Performance Optimization — Use GPU, batch frames, or smaller models for real-t
 Analytics / Statistics — Count objects, track motion paths, generate logs for analysis
 Mobile Deployment — Convert model to ONNX / TensorRT for edge/mobile devices
 
-#object-detection
-#tracking
-#YOLOv8
-#DeepSORT
-#OpenCV
+
+object-detection • tracking • YOLOv8 • DeepSORT • OpenCV • Python
+
+
+---
 
 
 
@@ -90,6 +96,5 @@ Mobile Deployment — Convert model to ONNX / TensorRT for edge/mobile devices
 
 
 
-```bash
-git clone https://github.com/Urooj25/CodeAlpha_ObjectDetection.git
-cd CodeAlpha_ObjectDetection
+
+
