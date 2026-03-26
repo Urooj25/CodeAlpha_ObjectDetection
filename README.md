@@ -33,18 +33,26 @@ It fulfills all internship requirements:
 
 ## 📦 Installation
 
- **Clone the repository**
-**Install dependencies**
+##**Clone the repository**
+ 
+##**Install dependencies**
+
 pip install -r requirements.txt
-**Usage**
+
+##**Usage**
+
 Run on Video Files
-Detect in real time
-**Code Overview**
+Detect  real time objects
+
+##**Code Overview**
+
 yolo_object_tracking.py — main detection & tracking script
 videos/ — sample video(s) for testing
 models/ — YOLO pre-trained weights if required
 requirements.txt — all dependencies for Python environment
-**Future Improvements**
+
+##**Future Improvements**
+
 GUI / Dashboard — Let users select videos or webcam dynamically
 Save Output Videos — Add cv2.VideoWriter to save processed videos
 Custom Object Classes — Fine-tune YOLO to detect specific objects more accurately
